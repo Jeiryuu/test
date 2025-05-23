@@ -90,7 +90,7 @@ input#click {
 .wishes {
   position: absolute;
   transition: .5s;
-  color: #fff; 
+  color: orange; /* Change this line to orange */
   font-size: 35px;
   text-align: center;
   z-index: -1; 
