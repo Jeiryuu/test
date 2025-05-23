@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
+import moanAudio from './assets/moan.mp3';
 
 const App = () => {
   const audioRef = useRef(null)
@@ -46,7 +47,7 @@ const App = () => {
               <div className="spark5"></div>
               <div className="spark6"></div>
             </div>
-            <audio ref={audioRef} src="\src\assets\moan.mp3" preload="auto" />
+            <audio ref={audioRef} src={moanAudio} preload="auto" />
           </div>
         </div>
       )}
